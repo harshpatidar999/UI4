@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Open+Sans&family=Roboto:wght@300;400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+body {
+    border: 20px solid gray;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+nav {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 5%;
+}
+
+nav span {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-right: 5%;
+}
+
+nav span p {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+nav h6 {
+    font-size: 20px;
+    margin-left: 10%;
+}
+
+nav span button {
+    width: 100px;
+    height: 30px;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    background-color: black;
+}
+
+.text-box {
+    width: 50%;
+    height: 400px;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 10%;
+}
+
+.text-box h2 {
+    font-size: 50px;
+    font-weight: 300;
+}
+
+.text-box h1 {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.text-box p {
+    font-size: 18px;
+    font-weight: 300;
+    color: gray;
+}
+
+.text-box span {
+    margin-top: 20px;
+}
+
+.button-box {
+    width: 310px;
+    height: 50px;
+    display: flex;
+    align-items: start;
+    justify-content: space-evenly;
+    padding-top: 40px;
+}
+
+.now {
+    font-size: 14px;
+    width: 140px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    border: none;
+    margin-right: 10px;
+}
+
+.button-box i {
+    font-size: 30px;
+    margin-top: 5px;
+}
+
+.button-box p {
+    margin-top: 10px;
+    color: black;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.num-box {
+    width: 400px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 5%;
+}
+
+.num-box h6 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.num-box p {
+    font-size: 16px;
+    text-align: center;
+}
+
+.container img {
+    width: 900px;
+    height: 600px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+@media (max-width:768px) {
+    .container{
+        width: 100%;
+        height:100vh;
+    }
+    .container span p{
+        display: none;
+    }
+    .container img{
+        width: 620px;
+        padding-top: 50px;
+    }
+    .num-box{
+        padding-right: 80px;
+    }
+    
+}
